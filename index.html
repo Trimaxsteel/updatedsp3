@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shreyash Patil - Portfolio</title>
+  <meta name="description" content="Shreyash Patil - Portfolio, Education, Goals, Achievements" />
+  <meta name="author" content="Shreyash Patil" />
+  <meta property="og:title" content="Shreyash Patil Portfolio" />
+  <meta property="og:image" content="sp.png" />
+  <meta property="og:description" content="Personal introduction portfolio site." />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="icon" href="favicon.ico" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-white text-black dark:bg-gray-900 dark:text-white transition-colors">
+  <div id="spinner" class="fixed inset-0 bg-white dark:bg-gray-900 flex flex-col items-center justify-center z-50">
+    <img src="../sp.png" alt="Preview of Shreyash Patil" class="w-20 h-20 mb-4 rounded-full border-2 border-blue-400 object-cover shadow" />
+    <img src="assets/spinner.svg" alt="Loading..." class="w-10 h-10 animate-spin" />
+  </div>
+
+  <header class="bg-gray-800 text-white p-4 rounded-b-lg">
+    <div class="flex justify-between items-center max-w-6xl mx-auto">
+      <h1 class="text-xl font-bold">Shreyash's Portfolio</h1>
+      <button id="menu-toggle" class="md:hidden text-white focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+      <nav id="nav-menu" class="hidden md:flex space-x-4">
+        <a href="#about">About</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#goals">Goals</a>
+        <a href="#personal">Personal</a>
+        <a href="#contact">Contact</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#quote">Quote</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto p-4">
+    <section id="welcome" class="text-center">
+      <img src="images/profile.jpg" alt="Shreyash Patil" class="rounded-full w-32 h-32 mx-auto border-4 border-blue-500 object-cover" />
+      <h2 class="text-2xl font-bold mt-4">Hi, I'm Shreyash Sudhir Patil</h2>
+      <p>Welcome to my digital world! Here's a short intro:</p>
+      <iframe class="my-4 w-full max-w-md mx-auto" height="215" src="https://www.youtube.com/embed/W3ksXwAHRT0" allowfullscreen></iframe>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p><strong>Location:</strong> Mumbai, Virar, Maharashtra</p>
+      <p><strong>Education:</strong> B.Tech in Computer Science (2nd Year)</p>
+      <p><strong>Languages:</strong> English, Hindi, Marathi</p>
+      <p><strong>Coding:</strong> Python, C</p>
+    </section>
+
+    <section id="achievements">
+      <h2>Achievements</h2>
+      <ul id="achievements-list">Loading...</ul>
+    </section>
+
+    <section id="goals">
+      <h2>Future Goals</h2>
+      <p>I'm going to become a highly skilled engineer — and have fun while doing it!</p>
+    </section>
+
+    <section id="personal">
+      <h2>More About Me</h2>
+      <p><strong>Hobby:</strong> I love playing badminton because it gives energetic vibes.</p>
+      <p><strong>Role Model:</strong> My father — his attitude, ethics, and hard work inspire me.</p>
+      <p><strong>Favourite Book:</strong> The Power of Your Subconscious Mind — it teaches lessons on hope.</p>
+      <p><strong>Favourite Website:</strong> Pokémon Showdown — I love Pokémon!</p>
+      <p><strong>Favourite Startup:</strong> Zepto — because of its fast service.</p>
+      <p><strong>Volunteering:</strong> I've participated in NSS activities in college multiple times.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p><strong>Phone:</strong> <a href="tel:8600206100">8600206100</a></p>
+      <p><strong>Email:</strong> <a href="mailto:123shreyash2056@sjcem.edu.in">123shreyash2056@sjcem.edu.in</a></p>
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/918600206100" target="_blank" rel="noopener">Chat on WhatsApp</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/Trimaxsteel" target="_blank" rel="noopener">Trimaxsteel</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/shreyash-patil-722887321" target="_blank" rel="noopener">Shreyash Patil</a></p>
+      <iframe class="my-4 w-full rounded" height="250" style="border:0;" loading="lazy" allowfullscreen
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.973739457023!2d72.77628151534447!3d19.45591848509476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7aa49b828c6a5%3A0xbefe4c41a14ad251!2sVirar%20West%2C%20Virar%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1684557425286!5m2!1sen!2sin"></iframe>
+    </section>
+
+    <section id="hobbies">
+      <h2>Hobbies</h2>
+      <ul id="hobbies-list">Loading...</ul>
+    </section>
+
+    <section id="testimonials">
+      <h2>Testimonials</h2>
+      <ul id="testimonials-list">Loading...</ul>
+    </section>
+
+    <section id="quote">
+      <h2>Quote of the Day</h2>
+      <blockquote id="quote-text">Loading quote...</blockquote>
+      <cite id="quote-author"></cite>
+    </section>
+
+    <button id="scrollTop" class="fixed bottom-5 right-5 hidden p-3 bg-blue-500 text-white rounded-full shadow-lg hover:bg-blue-700 transition">⬆</button>
+    <button id="darkToggle" class="fixed bottom-5 left-5 p-3 bg-gray-700 text-white rounded-full shadow hover:bg-gray-900 transition">Dark Mode</button>
+  </main>
+
+  <footer class="text-center p-4 bg-gray-800 text-white rounded-t-lg mt-8">
+    &copy; 2025 Shreyash Patil. Made with passion and purpose.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
